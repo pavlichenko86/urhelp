@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
     <script>
@@ -32,7 +34,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+                        <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png"></a>
+                        <h3 class="site-ttle">Центр податкових<br>та юридичних супроводжень</h3>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -62,13 +65,13 @@
             <img class="femida" src="img/femida.png" alt="background">
             <div class="col-md-20 col-md-offset-2 first">
                 <div class="col-md-12 first__left">
-                    <p class="first__left__text">Комплексна та професійна</p>
-                    <p class="first__left__text first__left__text2">юридична допомога</p>
+                    <p class="first__left__text wow slideInLeft" data-wow-duration="2s">Комплексна та професійна</p>
+                    <p class="first__left__text first__left__text2 wow fadeInLeft" data-wow-duration="2s">юридична допомога</p>
                     <a class="first__left__btn" href="#">ОТРИМАТИ КОНСУЛЬТАЦІЮ</a>
                 </div>
                 <div class="col-md-12 first__right">
-                    <p class="first__right__text">ВИРІШЕННЯ ПИТАНЬ</p>
-                    <p class="first__right__text first__right__text2"> будь-якої складності</p>
+                    <p class="first__right__text wow fadeInRight" data-wow-duration="2s">ВИРІШЕННЯ ПИТАНЬ</p>
+                    <p class="first__right__text first__right__text2 wow fadeInRight" data-wow-duration="2s"> будь-якої складності</p>
                 </div>
             </div>
         </div>
@@ -80,21 +83,21 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="about-exp">
-                                <div class="col-md-15 about-exp__count">20</div>
+                                <div class="col-md-15 about-exp__count wow1 about-exp__count1"></div>
                                 <div class="col-md-9">
                                     <span class="about-exp__year">років</span>
                                     <span class="about-exp__exp about-exp__line">досвіду</span>
                                 </div>
                             </div>
                             <div class="about-win">
-                                <div class="col-md-15 about-exp__count">5580</div>
+                                <div class="col-md-15 about-exp__count about-exp__count2"></div>
                                 <div class="col-md-9">
                                     <span class="about-exp__year">справ</span>
                                     <span class="about-exp__exp about-exp__line2">виграно</span>
                                 </div>
                             </div>
                             <div class="about-clients">
-                                <div class="col-md-15 about-exp__count">760</div>
+                                <div class="col-md-15 about-exp__count about-exp__count3"></div>
                                 <div class="col-md-9">
                                     <span class="about-exp__year">клієнтів</span>
                                     <span class="about-exp__exp">на рік</span>
@@ -104,9 +107,9 @@
                         <div class="col-md-16">
                             <h2 class="about-company">ПРО КОМПАНІЮ</h2>
                             <img class="center-block" src="img/u-company.png" alt="pic">
-                            <p class="about-text">Центр володіє багаторічним досвідом, і надає комплексну та професійну юридичну допомогу.<br><br>
-                            Центр податкових та юридичних супроводжень був створений для надання високоякісних послуг та допомоги як фізичним особам, так і приватним підприємцям. <br><br>
-                            Будь-яке питання: від оформлення права власності до складної і заплутаної справи в суді ви можете довірити нам без сумнівів, адже наша мета - це захист ваших прав!</p>
+                            <p class="about-text">Центр володіє багаторічним досвідом, і надає комплексну та професійну юридичну допомогу.</p>
+                            <p class="about-text">Центр податкових та юридичних супроводжень був створений для надання високоякісних послуг та допомоги як фізичним особам, так і приватним підприємцям.</p>
+                            <p class="about-text">Будь-яке питання: від оформлення права власності до складної і заплутаної справи в суді ви можете довірити нам без сумнівів, адже наша мета - це захист ваших прав!</p>
                         </div>
                     </div>
                 </div>
@@ -114,28 +117,32 @@
         </div>
     </div>
     <div class="container-fluid edge">
+    <div class="edge-wrap">
         <div class="row edge-row">
             <div class="container">
                 <h2 class="about-company">Наші переваги</h2>
                 <img class="center-block" src="img/u-company.png" alt="pic">
-                <div class="col-md-6 edge-item">
-                    <img class="center-block" style="height: 111px" src="img/edge1.png" alt="item">
-                    <p class="edge-text">Повна конфіденційність</p>
-                </div>
-                <div class="col-md-6 edge-item">
-                    <img class="center-block" src="img/edge2.png" alt="item">
-                    <p class="edge-text">Оперативне надання юридичної допомоги</p>
-                </div>
-                <div class="col-md-6 edge-item">
-                    <img class="center-block" src="img/edge3.png" alt="item">
-                    <p class="edge-text">Висока якість послуг</p>
-                </div>
-                <div class="col-md-6 edge-item">
-                    <img class="center-block" src="img/edge4.png" alt="item">
-                    <p class="edge-text">Індивідуальний підхід до кожної справи</p>
+                <div class="col-md-18 col-md-offset-3">
+                    <div class="col-md-6 edge-item wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <img class="center-block" style="height: 111px" src="img/edge1.png" alt="item">
+                        <p class="edge-text">Повна конфіденційність</p>
+                    </div>
+                    <div class="col-md-6 edge-item wow slideInLeft" data-wow-duration="2s">
+                        <img class="center-block" src="img/edge2.png" alt="item">
+                        <p class="edge-text">Оперативне надання юридичної допомоги</p>
+                    </div>
+                    <div class="col-md-6 edge-item wow slideInRight" data-wow-duration="2s">
+                        <img class="center-block" src="img/edge3.png" alt="item">
+                        <p class="edge-text">Висока якість послуг</p>
+                    </div>
+                    <div class="col-md-6 edge-item wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <img class="center-block" src="img/edge4.png" alt="item">
+                        <p class="edge-text">Індивідуальний підхід до кожної справи</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>    
     </div>
     <div class="container-fluid services">
         <div class="row services-row">
@@ -143,33 +150,35 @@
                 <h2 class="about-company">Наші послуги</h2>
                 <img class="center-block" src="img/u-company.png" alt="pic">
                 <div class="row services-item__row">
-                    <div class="col-md-8 services-item">
-                        <img class="img-responsive services-img" src="img/services1.jpg" alt="services">
-                    </div>
-                    <div class="col-md-8 services-item">
-                        <h4 class="services-item__title">консультації</h4>
-                        <p class="services-item__text">З податкових та юридичних питань.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus.
-    </p>
-                        <a class="services-item__more" href="#">Детальніше >></a>
-                    </div>
-                    <div class="col-md-8 services-item">
-                        <img class="img-responsive services-img" src="img/services2.jpg" alt="services">
-                    </div>
-                    <div class="col-md-8 services-item">
-                        <h4 class="services-item__title">Податкові послуги</h4>
-                        <p class="services-item__text">З податкових та юридичних питань.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus.</p>
-                        <a class="services-item__more" href="#">Детальніше >></a>
-                    </div>
-                    <div class="col-md-8 services-item">
-                        <img class="img-responsive services-img" src="img/services3.jpg" alt="services">
-                    </div>
-                    <div class="col-md-8 services-item">
-                        <h4 class="services-item__title">Юридичні послуги</h4>
-                        <p class="services-item__text">З податкових та юридичних питань.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus.</p>
-                        <a class="services-item__more" href="#">Детальніше >></a>
+                    <div class="col-md-18 col-md-offset-3">
+                        <div class="col-md-8 services-item">
+                            <img class="img-responsive services-img wow2" data-wow-duration="2s" src="img/services1.jpg" alt="services">
+                        </div>
+                        <div class="col-md-8 services-item">
+                            <h4 class="services-item__title">консультації</h4>
+                            <p class="services-item__text">З податкових та юридичних питань.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus.
+        </p>
+                            <a class="services-item__more" href="#">Детальніше >></a>
+                        </div>
+                        <div class="col-md-8 services-item">
+                            <img class="img-responsive services-img wow2" data-wow-duration="2s" src="img/services2.jpg" alt="services">
+                        </div>
+                        <div class="col-md-8 services-item">
+                            <h4 class="services-item__title">Податкові послуги</h4>
+                            <p class="services-item__text">З податкових та юридичних питань.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus.</p>
+                            <a class="services-item__more" href="#">Детальніше >></a>
+                        </div>
+                        <div class="col-md-8 services-item">
+                            <img class="img-responsive services-img wow2" data-wow-duration="2s" src="img/services3.jpg" alt="services">
+                        </div>
+                        <div class="col-md-8 services-item">
+                            <h4 class="services-item__title">Юридичні послуги</h4>
+                            <p class="services-item__text">З податкових та юридичних питань.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at finibus tellus. Nam laoreet mauris eu mauris hendrerit, et feugiat orci consequat. Suspendisse imperdiet odio vel tincidunt dapibus.</p>
+                            <a class="services-item__more" href="#">Детальніше >></a>
+                        </div>
                     </div>
                 </div>
                 <a class="all-services" href="#">Всі послуги</a>
@@ -181,29 +190,31 @@
             <div class="container">
                 <h2 class="about-company">як ми працюємо</h2>
                 <img class="center-block we-work__img" src="img/u-company.png" alt="pic">
-                <div class="col-md-6 work-item work-item-str">
-                    <div class="work-num work-num-line">1</div>
-                    <div class="work-img work-img-1"></div>
-                    <h4 class="work-title">Заповнюєте заявку</h4>
-                    <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                </div>
-                <div class="col-md-6 work-item work-item-str">
-                    <div class="work-num work-num-line">2</div>
-                    <div class="work-img work-img-2"></div>
-                    <h4 class="work-title">Консультуємо</h4>
-                    <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                </div>
-                <div class="col-md-6 work-item work-item-str">
-                    <div class="work-num work-num-line">3</div>
-                    <div class="work-img work-img-3"></div>
-                    <h4 class="work-title">Підписуєте папери</h4>
-                    <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntг</p>
-                </div>
-                <div class="col-md-6 work-item">
-                    <div class="work-num">4</div>
-                    <div class="work-img work-img-4"></div>
-                    <h4 class="work-title">Отримуєте документи</h4>
-                    <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <div class="col-md-18 col-md-offset-3">
+                    <div class="col-md-6 work-item work-item-str wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <div class="work-num work-num-line draw">1</div>
+                        <div class="work-img work-img-1"></div>
+                        <h4 class="work-title">Заповнюєте заявку</h4>
+                        <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                    <div class="col-md-6 work-item work-item-str wow slideInLeft" data-wow-duration="2s">
+                        <div class="work-num work-num-line">2</div>
+                        <div class="work-img work-img-2"></div>
+                        <h4 class="work-title">Консультуємо</h4>
+                        <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                    <div class="col-md-6 work-item work-item-str wow slideInRight" data-wow-duration="2s">
+                        <div class="work-num work-num-line">3</div>
+                        <div class="work-img work-img-3"></div>
+                        <h4 class="work-title">Підписуєте папери</h4>
+                        <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntг</p>
+                    </div>
+                    <div class="col-md-6 work-item wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <div class="work-num">4</div>
+                        <div class="work-img work-img-4"></div>
+                        <h4 class="work-title">Отримуєте документи</h4>
+                        <p class="work-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -211,16 +222,16 @@
     <div class="container-fluid consultation">
         <div class="row consultation-row">
             <div class="container consultation-wrap">
-                <h2 class="about-company">БАЖАЄТЕ ОТРИМАТИ КОНСУЛЬТАЦІЮ СПЕЦІАЛІСТА?</h2>
-                <p class="consultation-text">Щоб отримати всю вичерпну інформацію стосовно Вашого питання: заповніть форму нижче. Найближчим часом ми Вам зателефонуємо для уточнення деталей</p>
-                <form id="consult" action="#" method="post" name="form-cons">
+                <h2 class="about-company wow slideInRight" data-wow-duration="2s">БАЖАЄТЕ ОТРИМАТИ КОНСУЛЬТАЦІЮ СПЕЦІАЛІСТА?</h2>
+                <p class="consultation-text wow slideInLeft" data-wow-duration="2s">Щоб отримати всю вичерпну інформацію стосовно Вашого питання: заповніть форму нижче. Найближчим часом ми Вам зателефонуємо для уточнення деталей</p>
+                <form id="consult" class="wow slideInDown" action="#" method="post" name="form-cons" data-wow-duration="2s" data-wow-delay="0.5s">
                     <div class="ccc">
                         <input class="consult-name" type="text" name="c-name" placeholder="Ваше ім`я:">
                     </div>
                     <input class="consult-phone" type="tel" name="c-phone" placeholder="Ваш телефон:">
                     <input class="consult-submit" type="submit" value="НАДІСЛАТИ">
                 </form>
-                <p class="consult-yes">* Ви погоджуєтесь на обробку персональних даних</p>
+                <p class="consult-yes wow slideInDown" data-wow-duration="2s" data-wow-delay="0.5s">* Ви погоджуєтесь на обробку персональних даних</p>
             </div>
         </div>
     </div>
@@ -279,14 +290,14 @@
                 <img class="center-block feedback__img" src="img/u-company-white.png" alt="pic">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-8 wow fadeInLeft" data-wow-duration="2s">
                             <p class="contact-title">Ми знаходимось:</p>
                             <div class="contact-item">м. Кременчук, вул. 29-го Вересня 11/19 +38(067) 735-80-18, +38(066) 201-30-07</div>
                             <div class="contact-item">Email: support@isv7.com</div>
                             <div class="contact-item">Skype: isv7com</div>
                             <div class="contact-item">Skype: isv7com</div>
                         </div>
-                        <div class="col-md-16">
+                        <div class="col-md-16 wow fadeInRight" data-wow-duration="2s">
                             <p class="contact-title">Залишилися питання? Пишіть!</p>
                             <form id="contacts" action="#" method="post" name="contacts">
                                 <div class="row">
