@@ -1,17 +1,1089 @@
 @media screen and (min-width: 320px) and (max-width: 424px) {
+  /*--header---*/
+  .site-ttle {
+    margin: 22px 0 19px 1px;
+    font-size: 10px;
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border: none;
+  }
+  .navbar-brand {
+    padding: 0;
+    display: inline-block;
+  }
+  .navbar-nav {
+    display: block;
+    height: auto;
+    background: #ececec;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /*---first----*/
+  .first {
+    width: 100%;
+    top: 85px;
+  }
+  .wrap {
+    height: 330px;
+  }
+  .wrapper1,
+  .wrapper2 {
+    height: 280px;
+  }
+  .first__left {
+    padding-top: 0px;
+  }
+  .first__left__text {
+    font-size: 13px;
+  }
+  .first__left__btn {
+    font-size: 10px;
+    width: 83%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    width: 46%;
+  }
+  .wrapper1__img,
+  .wrapper2__img {
+    width: 100%;
+    height: 100%;
+  }
+  .femida {
+    right: 5%;
+    height: 59%;
+  }
+  .first__right {
+    width: 50%;
+    padding-top: 35px;
+    margin-top: 48px;
+    margin-left: 16%;
+  }
+  .first__right__text {
+    font-size: 13px;
+    left: 33%;
+  }
+  .first__right__text2 {
+    left: 23px;
+  }
+
+  /*--about---*/
+  .about-exp__count {
+    font-size: 60px;
+    text-align: center;
+  }
+  .about-exp__year {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 32px;
+  }
+  .about-exp__exp {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 30px;
+  }
+  .about-exp__line:after,
+  .about-exp__line2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d9d6d6;
+  }
+  .about-text {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  /*---edge-----*/
+  .edge-item {
+    padding-top: 30px;
+  }
+
+  /*---services-----*/
+  .all-services {
+    width: 80%;
+  }
+  .services-img {
+    max-width: 310px;
+    margin-left: calc(50% - 155px);
+  }
+
+  /*---work----*/
+  .work-num-line:after,
+  .work-item-str:after {
+    display: none;
+  }
+
+  /*---consultation----*/
+  #consult {
+    display: block;
+  }
+  .ccc {
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #4486f7;
+  }
+  .ccc:after {
+    display: none;
+  }
+  .consult-name,
+  .consult-phone {
+    width: 100%;
+  }
+  .consult-submit {
+    width: 80%;
+    margin-top: 5px;
+  }
+  .consult-yes {
+    width: 80%;
+  }
+
+  /*---feedback-----*/
+  .feedback-left,
+  .feedback-right {
+    padding: 0 30px;
+    font-size: 17px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  /*---contacts----*/
+  .contact-title {
+    font-size: 19px;
+  }
+  .contact-item {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  /*--footer---*/
+  .footer {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 425px) and (max-width: 579px) {
+  /*--header---*/
+  .site-ttle {
+    margin: 22px 0 19px 8px;
+    font-size: 13px;
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border: none;
+  }
+  .navbar-brand {
+    padding: 0;
+    display: inline-block;
+  }
+  .navbar-nav {
+    display: block;
+    height: auto;
+    background: #ececec;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /*---first----*/
+  .first {
+    width: 100%;
+    top: 85px;
+  }
+  .wrap {
+    height: 330px;
+  }
+  .wrapper1,
+  .wrapper2 {
+    height: 280px;
+  }
+  .first__left {
+    padding-top: 0px;
+  }
+  .first__left__text {
+    font-size: 13px;
+  }
+  .first__left__btn {
+    font-size: 10px;
+    width: 83%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    width: 46%;
+  }
+  .wrapper1__img,
+  .wrapper2__img {
+    width: 100%;
+    height: 100%;
+  }
+  .femida {
+    right: 5%;
+    height: 66%;
+  }
+  .first__right {
+    width: 50%;
+    padding-top: 35px;
+    margin-top: 48px;
+    margin-left: 22%;
+  }
+  .first__right__text {
+    font-size: 13px;
+    left: 33%;
+  }
+  .first__right__text2 {
+    left: 23%;
+  }
+
+  /*--about---*/
+  .about-exp__count {
+    font-size: 60px;
+    text-align: center;
+  }
+  .about-exp__year {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 32px;
+  }
+  .about-exp__exp {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 30px;
+  }
+  .about-exp__line:after,
+  .about-exp__line2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d9d6d6;
+  }
+  .about-text {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  /*---edge-----*/
+  .edge-item {
+    padding-top: 30px;
+  }
+
+  /*---services-----*/
+  .all-services {
+    width: 80%;
+  }
+  .services-img {
+    max-width: 310px;
+    margin-left: calc(50% - 155px);
+  }
+
+  /*---work----*/
+  .work-num-line:after,
+  .work-item-str:after {
+    display: none;
+  }
+
+  /*---consultation----*/
+  #consult {
+    display: block;
+  }
+  .ccc {
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #4486f7;
+  }
+  .ccc:after {
+    display: none;
+  }
+  .consult-name,
+  .consult-phone {
+    width: 100%;
+  }
+  .consult-submit {
+    width: 80%;
+    margin-top: 5px;
+  }
+  .consult-yes {
+    width: 80%;
+  }
+
+  /*---feedback-----*/
+  .feedback-left,
+  .feedback-right {
+    padding: 0 30px;
+    font-size: 17px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  /*---contacts----*/
+  .contact-title {
+    font-size: 19px;
+  }
+  .contact-item {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  /*--footer---*/
+  .footer {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 580px) and (max-width: 767px) {
+  /*--header---*/
+  .site-ttle {
+    margin: 22px 0 19px 8px;
+    font-size: 15px;
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border: none;
+  }
+  .navbar-brand {
+    padding: 0;
+    display: inline-block;
+  }
+  .navbar-nav {
+    display: block;
+    height: auto;
+    background: #ececec;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /*---first----*/
+  .first {
+    width: 100%;
+    top: 85px;
+  }
+  .wrap {
+    height: 420px;
+  }
+  .wrapper1,
+  .wrapper2 {
+    height: 400px;
+  }
+  .first__left {
+    padding-top: 85px;
+  }
+  .first__left__text {
+    font-size: 16px;
+  }
+  .first__left__btn {
+    font-size: 10px;
+    width: 83%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    width: 28%;
+  }
+  .wrapper1__img,
+  .wrapper2__img {
+    width: 100%;
+    height: 100%;
+  }
+  .femida {
+    right: 5%;
+    height: 66%;
+  }
+  .first__right {
+    width: 50%;
+    padding-top: 0px;
+    margin-top: 42px;
+    margin-left: 29%;
+  }
+  .first__right__text {
+    font-size: 16px;
+    left: 33%;
+  }
+  .first__right__text2 {
+    left: 23%;
+  }
+
+  /*--about---*/
+  .about-exp__count {
+    font-size: 60px;
+    text-align: center;
+  }
+  .about-exp__year {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 32px;
+  }
+  .about-exp__exp {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 30px;
+  }
+  .about-exp__line:after,
+  .about-exp__line2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d9d6d6;
+  }
+  .about-text {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  /*---edge-----*/
+  .edge-item {
+    padding-top: 30px;
+  }
+
+  /*---services-----*/
+  .all-services {
+    width: 80%;
+  }
+  .services-img {
+    max-width: 310px;
+    margin-left: calc(50% - 155px);
+  }
+
+  /*---work----*/
+  .work-num-line:after,
+  .work-item-str:after {
+    display: none;
+  }
+
+  /*---consultation----*/
+  #consult {
+    display: block;
+  }
+  .ccc {
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #4486f7;
+  }
+  .ccc:after {
+    display: none;
+  }
+  .consult-name,
+  .consult-phone {
+    width: 100%;
+  }
+  .consult-submit {
+    width: 80%;
+    margin-top: 5px;
+  }
+  .consult-yes {
+    width: 80%;
+  }
+
+  /*---feedback-----*/
+  .feedback-left,
+  .feedback-right {
+    padding: 0 30px;
+    font-size: 17px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  /*---contacts----*/
+  .contact-title {
+    font-size: 19px;
+  }
+  .contact-item {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .contacts-form {
+    padding: 30px 10px;
+  }
+
+  /*--footer---*/
+  .footer {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*--header---*/
+  .site-ttle {
+    margin: 22px 0 19px 8px;
+    font-size: 14px;
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border: none;
+  }
+  .navbar-brand {
+    padding: 0;
+    display: inline-block;
+  }
+  .navbar-nav {
+    display: block;
+    height: auto;
+    background: #ececec;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 61px;
+  }
+
+  /*---first----*/
+  .first {
+    top: 85px;
+  }
+  .wrap {
+    height: 420px;
+  }
+  .wrapper1,
+  .wrapper2 {
+    height: 400px;
+  }
+  .first__left {
+    padding-top: 85px;
+  }
+  .first__left__text {
+    font-size: 16px;
+  }
+  .first__left__btn {
+    font-size: 10px;
+    width: 83%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    width: 25%;
+  }
+  .wrapper1__img,
+  .wrapper2__img {
+    width: 100%;
+    height: 100%;
+  }
+  .femida {
+    right: 5%;
+    height: 66%;
+  }
+  .first__right {
+    width: 50%;
+    padding-top: 0px;
+    margin-top: 42px;
+    margin-left: 29%;
+  }
+  .first__right__text {
+    font-size: 16px;
+    left: 33%;
+  }
+  .first__right__text2 {
+    left: 23%;
+  }
+
+  /*--about---*/
+  .about-exp__count {
+    font-size: 48px;
+    text-align: center;
+  }
+  .about-exp__year {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 29px;
+  }
+  .about-exp__exp {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 25px;
+  }
+  .about-exp__line:after,
+  .about-exp__line2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d9d6d6;
+  }
+  .about-text {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  /*---edge-----*/
+  .edge-item {
+    padding-top: 30px;
+  }
+
+  /*---services-----*/
+  .all-services {
+    width: 35%;
+  }
+  .services-img {
+    max-width: 310px;
+    margin-left: calc(50% - 155px);
+  }
+
+  /*---work----*/
+  .work-num-line:after,
+  .work-item-str:after {
+    display: none;
+  }
+
+  /*---consultation----*/
+  #consult {
+    display: block;
+    width: 80%;
+  }
+  .ccc {
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #4486f7;
+  }
+  .ccc:after {
+    display: none;
+  }
+  .consult-name,
+  .consult-phone {
+    width: 100%;
+  }
+  .consult-submit {
+    width: 35%;
+    margin-top: 5px;
+  }
+  .consult-yes {
+    width: 80%;
+  }
+
+  /*---feedback-----*/
+  .feedback-left,
+  .feedback-right {
+    padding: 0 30px;
+    font-size: 17px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  /*---contacts----*/
+  .contact-title {
+    font-size: 19px;
+  }
+  .contact-item {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .contacts-form {
+    padding: 30px 10px;
+  }
+
+  /*--footer---*/
+  .footer {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  /*--header---*/
+  .site-ttle {
+    margin: 22px 0 19px 8px;
+    font-size: 14px;
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border: none;
+  }
+  .navbar-brand {
+    padding: 0;
+    display: inline-block;
+  }
+  .navbar-nav {
+    display: block;
+    height: auto;
+    background: #ececec;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 61px;
+  }
+
+  /*---first----*/
+  .first {
+    top: 85px;
+  }
+  .wrap {
+    height: 420px;
+  }
+  .wrapper1,
+  .wrapper2 {
+    height: 400px;
+  }
+  .first__left {
+    padding-top: 85px;
+  }
+  .first__left__text {
+    font-size: 16px;
+  }
+  .first__left__btn {
+    font-size: 10px;
+    width: 83%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    width: 25%;
+  }
+  .wrapper1__img,
+  .wrapper2__img {
+    width: 100%;
+    height: 100%;
+  }
+  .femida {
+    right: 5%;
+    height: 66%;
+  }
+  .first__right {
+    width: 50%;
+    padding-top: 0px;
+    margin-top: 42px;
+    margin-left: 29%;
+  }
+  .first__right__text {
+    font-size: 16px;
+    left: 33%;
+  }
+  .first__right__text2 {
+    left: 23%;
+  }
+
+  /*--about---*/
+  .about-exp__count {
+    font-size: 48px;
+    text-align: center;
+  }
+  .about-exp__year {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 29px;
+  }
+  .about-exp__exp {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 25px;
+  }
+  .about-exp__line:after,
+  .about-exp__line2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d9d6d6;
+  }
+  .about-text {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  /*---edge-----*/
+  .edge-item {
+    padding-top: 30px;
+  }
+
+  /*---services-----*/
+  .all-services {
+    width: 35%;
+  }
+  .services-img {
+    max-width: 310px;
+    margin-left: calc(50% - 155px);
+  }
+
+  /*---work----*/
+  .work-num-line:after,
+  .work-item-str:after {
+    display: none;
+  }
+
+  /*---consultation----*/
+  #consult {
+    display: block;
+    width: 80%;
+  }
+  .ccc {
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #4486f7;
+  }
+  .ccc:after {
+    display: none;
+  }
+  .consult-name,
+  .consult-phone {
+    width: 100%;
+  }
+  .consult-submit {
+    width: 35%;
+    margin-top: 5px;
+  }
+  .consult-yes {
+    width: 80%;
+  }
+
+  /*---feedback-----*/
+  .feedback-left,
+  .feedback-right {
+    padding: 0 30px;
+    font-size: 17px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  /*---contacts----*/
+  .contact-title {
+    font-size: 19px;
+  }
+  .contact-item {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .contacts-form {
+    padding: 30px 10px;
+  }
+
+  /*--footer---*/
+  .footer {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 990px) and (max-width: 1270px) {
+  /*--header---*/
+  .site-ttle {
+    margin: 22px 0 19px 8px;
+    font-size: 14px;
+  }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    border: none;
+  }
+  .navbar-brand {
+    padding: 0;
+    display: inline-block;
+  }
+  .navbar-nav {
+    display: block;
+    height: auto;
+    background: #ececec;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+    font-size: 15px;
+    padding: 6px;
+    line-height: 61px;
+  }
+
+  /*---first----*/
+  .first {
+    top: 85px;
+  }
+  .wrap {
+    height: 100vh;
+  }
+  .wrapper1,
+  .wrapper2 {
+    height: 100vh;
+  }
+  .first__left {
+    padding-top: 85px;
+  }
+  .first__left__text {
+    font-size: 28px;
+  }
+  .first__left__btn {
+    font-size: 17px;
+    width: 83%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    width: 64%;
+  }
+  .wrapper1__img,
+  .wrapper2__img {
+    width: 100%;
+    height: 100%;
+  }
+  .femida {
+    right: 5%;
+    height: 80%;
+  }
+  .first__right {
+    width: 50%;
+    padding-top: 0px;
+    margin-top: 65px;
+    margin-left: 33%;
+  }
+  .first__right__text {
+    font-size: 28px;
+    left: 33%;
+  }
+  .first__right__text2 {
+    left: 23%;
+  }
+
+  /*--about---*/
+  .about-exp__count {
+    font-size: 48px;
+    text-align: center;
+  }
+  .about-exp__year {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 29px;
+  }
+  .about-exp__exp {
+    display: block;
+    text-align: center;
+    top: 0;
+    font-size: 25px;
+  }
+  .about-exp__line:after,
+  .about-exp__line2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #d9d6d6;
+  }
+  .about-text {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  /*---edge-----*/
+  .edge-item {
+    padding-top: 30px;
+  }
+  .edge-text {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  /*---services-----*/
+  .all-services {
+    width: 35%;
+  }
+  .services-img {
+    max-width: 310px;
+    margin-left: calc(50% - 155px);
+  }
+
+  /*---work----*/
+  .work-num-line:after,
+  .work-item-str:after {
+    display: none;
+  }
+
+  /*---consultation----*/
+  #consult {
+    display: flex;
+    width: 100%;
+  }
+  .ccc {
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+  .ccc:after {
+    display: none;
+  }
+  .consult-name,
+  .consult-phone {
+    width: 100%;
+  }
+  .consult-submit {
+    width: 35%;
+    margin-top: 0;
+  }
+  .consult-yes {
+    width: 80%;
+  }
+
+  /*---feedback-----*/
+  .feedback-left,
+  .feedback-right {
+    padding: 0 30px;
+    font-size: 17px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  /*---contacts----*/
+  .contact-title {
+    font-size: 19px;
+  }
+  .contact-item {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .contacts-form {
+    padding: 30px 10px;
+  }
+
+  /*--footer---*/
+  .footer {
+    font-size: 18px;
+  }
 }

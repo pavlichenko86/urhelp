@@ -320,7 +320,7 @@ body {
 
 @keyframes myanimation {
   0% {
-    transform: rotateY(360deg);
+    transform: rotateY(180deg);
   }
   100% {
     transform: rotateY(0deg);
@@ -425,15 +425,16 @@ body {
   text-align: center;
 }
 .consultation-text {
-  width: 80%;
+  width: 97%;
   margin: 0 auto;
   text-align: left;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 21px;
+  font-size: 18px;
   color: #787878;
 }
 #consult {
+  width: 100%;
   display: inline-flex;
   margin: 50px auto 15px;
   background: #fff;
@@ -490,7 +491,7 @@ body {
   outline: none;
 }
 .consult-yes {
-  width: 78%;
+  width: 95%;
   margin: 0 auto;
   position: relative;
   text-align: left;
