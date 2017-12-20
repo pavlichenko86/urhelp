@@ -236,7 +236,6 @@ body {
   font-weight: 300;
   font-size: 18px;
   color: #434142;
-  line-height: 36px;
   text-align: center;
   padding-top: 18px;
 }
@@ -316,6 +315,10 @@ body {
   box-shadow: 2px 1px 4px 3px rgba(50, 50, 50, 0.4);
   color: #fff;
   transition: all 0.3s;
+}
+.all-services:visited {
+  text-decoration: none;
+  color: #fff;
 }
 
 @keyframes myanimation {
@@ -547,14 +550,14 @@ body {
   align-items: center;
 }
 .feedback-left {
-  padding-left: 75px;
+  padding: 0 35px 0 60px;
   text-align: left;
   color: #434142;
   font-family: "OpenSans", sans-serif;
   font-size: 18px;
 }
 .feedback-right {
-  padding-right: 75px;
+  padding: 0 35px 0 60px;
   text-align: left;
   color: #434142;
   font-family: "OpenSans", sans-serif;
@@ -646,7 +649,7 @@ body {
   font-size: 16px;
   width: 90%;
   margin: 0 auto;
-  padding: 15px 10px;
+  padding: 15px 10px 0;
   border-bottom: 1px solid #fff;
 }
 .contacts__inp:focus {
@@ -698,4 +701,134 @@ body {
 }
 .footer__row {
   margin: 0;
+}
+
+/*---modal-window-----*/
+/* Базовые стили слоя затемнения и модального окна  */
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  /* фон затемнения */
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed; /* фиксированное поцизионирование */
+  cursor: default; /* тип курсара */
+}
+/* активируем слой затемнения */
+.overlay:target {
+  display: block;
+}
+/* стили модального окна */
+.popup {
+  top: -100%;
+  right: 0;
+  left: 50%;
+  font-size: 14px;
+  z-index: 20;
+  margin: 0;
+  width: 85%;
+  min-width: 320px;
+  max-width: 600px;
+  /* фиксированное позиционирование, окно стабильно при прокрутке */
+  position: fixed;
+  padding: 15px;
+  border: 1px solid #383838;
+  background: #fefefe;
+  /* скругление углов */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  font: 14px/18px "Tahoma", Arial, sans-serif;
+  /* внешняя тень */
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22),
+    0 19px 60px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22),
+    0 19px 60px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22),
+    0 19px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22), 0 19px 60px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translate(-50%, -500%);
+  -ms-transform: translate(-50%, -500%);
+  -o-transform: translate(-50%, -500%);
+  transform: translate(-50%, -500%);
+  -webkit-transition: -webkit-transform 0.6s ease-out;
+  -moz-transition: -moz-transform 0.6s ease-out;
+  -o-transition: -o-transform 0.6s ease-out;
+  transition: transform 0.6s ease-out;
+}
+/* активируем модальный блок */
+.overlay:target + .popup {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  top: 20%;
+}
+/* формируем кнопку закрытия */
+.closeP {
+  top: 1px;
+  right: 3px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  font: 13px/20px "Tahoma", Arial, sans-serif;
+  font-weight: bold;
+}
+.closeP:before {
+  color: rgb(77, 140, 247);
+  content: "X";
+  font-size: 20px;
+}
+.closeP:hover {
+  text-decoration: none;
+}
+#mod-form {
+  width: 90%;
+  margin: 0 auto;
+}
+.mod-name,
+.mod-phone {
+  width: 80%;
+  margin: 15px auto;
+  display: block;
+  border-radius: 9px;
+  padding: 5px 15px;
+  border: 1px solid #4e9ff9;
+}
+.consult-yes--mod {
+  width: 70%;
+}
+.mod-submit {
+  display: block;
+  width: 24%;
+  margin: 30px auto 0;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  background: #4d8cf7;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  transition: all 0.3s;
+}
+.mod-submit:hover {
+  text-decoration: none;
+  -webkit-box-shadow: 2px 1px 4px 3px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: 2px 1px 4px 3px rgba(50, 50, 50, 0.4);
+  box-shadow: 2px 1px 4px 3px rgba(50, 50, 50, 0.4);
+  color: #fff;
+  transition: all 0.3s;
+}
+.mod-submit:visited {
+  text-decoration: none;
+  color: #fff;
 }

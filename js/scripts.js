@@ -4,7 +4,15 @@ $(document).ready(function() {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
     },
-    loop: true
+    slidesPerView: 2,
+    loop: true,
+    breakpoints: {
+      // when window width is <= 640px
+      990: {
+        slidesPerView: 1,
+        spaceBetween: 30
+      }
+    }
   });
 
   var wow = new WOW({

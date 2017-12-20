@@ -20,7 +20,27 @@
   }
   .navbar-inverse .navbar-nav > li > a {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 6px;
+  }
+  .logo {
+    height: 52px;
+    margin: 11px 3px;
+  }
+  .navbar-toggle {
+    margin-top: 20px;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #0c0c0c;
+  }
+  .navbar-inverse .navbar-toggle {
+    border: none;
+  }
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus {
+    background-color: #ececec;
   }
 
   /*---first----*/
@@ -123,6 +143,9 @@
   .work-item-str:after {
     display: none;
   }
+  .work-num {
+    display: none;
+  }
 
   /*---consultation----*/
   #consult {
@@ -163,24 +186,72 @@
 
   /*---contacts----*/
   .contact-title {
-    font-size: 19px;
+    font-size: 12px;
   }
   .contact-item {
-    font-size: 16px;
+    font-size: 11px;
     padding-bottom: 5px;
+  }
+  .about-company--contacts,
+  .feedback__img--cont {
+    display: none;
+  }
+  .contacts__inp {
+    font-size: 11px;
+  }
+  .contacts__submit {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 17px 10px 0 25px;
+  }
+  .contacts-form {
+    padding: 13px 0;
+  }
+  .contacts__row {
+    height: auto;
+    text-align: center;
+  }
+  .sub_wrap {
+    position: relative;
+    width: 29%;
+    margin: 0 auto;
+  }
+  .sub_wrap:before {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 14px;
+    background: url(../img/mail.png);
   }
 
   /*--footer---*/
   .footer {
+    font-size: 10px;
+    padding: 12px 0;
+  }
+
+  /*---modal window-----*/
+  .about-company--mod {
     font-size: 18px;
+  }
+  .consult-yes--mod {
+    width: 60%;
+    font-size: 11px;
+  }
+  .mod-submit {
+    width: 45%;
+    font-size: 15px;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 579px) {
   /*--header---*/
   .site-ttle {
-    margin: 22px 0 19px 8px;
-    font-size: 13px;
+    margin: 22px 0 19px 1px;
+    font-size: 10px;
   }
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
@@ -198,7 +269,25 @@
   }
   .navbar-inverse .navbar-nav > li > a {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    padding: 6px;
+  }
+  .logo {
+    height: 52px;
+    margin: 11px 3px;
+  }
+  .navbar-toggle {
+    margin-top: 20px;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #0c0c0c;
+  }
+  .navbar-inverse .navbar-toggle {
+    border: none;
+  }
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus {
+    background-color: #ececec;
   }
 
   /*---first----*/
@@ -233,20 +322,20 @@
   }
   .femida {
     right: 5%;
-    height: 66%;
+    height: 59%;
   }
   .first__right {
     width: 50%;
     padding-top: 35px;
     margin-top: 48px;
-    margin-left: 22%;
+    margin-left: 16%;
   }
   .first__right__text {
     font-size: 13px;
     left: 33%;
   }
   .first__right__text2 {
-    left: 23%;
+    left: 23px;
   }
 
   /*--about---*/
@@ -301,6 +390,9 @@
   .work-item-str:after {
     display: none;
   }
+  .work-num {
+    display: none;
+  }
 
   /*---consultation----*/
   #consult {
@@ -341,16 +433,64 @@
 
   /*---contacts----*/
   .contact-title {
-    font-size: 19px;
+    font-size: 12px;
   }
   .contact-item {
-    font-size: 16px;
+    font-size: 11px;
     padding-bottom: 5px;
+  }
+  .about-company--contacts,
+  .feedback__img--cont {
+    display: none;
+  }
+  .contacts__inp {
+    font-size: 11px;
+  }
+  .contacts__submit {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 17px 10px 0 25px;
+  }
+  .contacts-form {
+    padding: 13px 0;
+  }
+  .contacts__row {
+    height: auto;
+    text-align: center;
+  }
+  .sub_wrap {
+    position: relative;
+    width: 29%;
+    margin: 0 auto;
+  }
+  .sub_wrap:before {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 14px;
+    background: url(../img/mail.png);
   }
 
   /*--footer---*/
   .footer {
+    font-size: 10px;
+    padding: 12px 0;
+  }
+
+  /*---modal window-----*/
+  .about-company--mod {
     font-size: 18px;
+  }
+  .consult-yes--mod {
+    width: 60%;
+    font-size: 11px;
+  }
+  .mod-submit {
+    width: 45%;
+    font-size: 15px;
   }
 }
 
@@ -376,7 +516,25 @@
   }
   .navbar-inverse .navbar-nav > li > a {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    padding: 6px;
+  }
+  .logo {
+    height: 52px;
+    margin: 11px 3px;
+  }
+  .navbar-toggle {
+    margin-top: 20px;
+  }
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #0c0c0c;
+  }
+  .navbar-inverse .navbar-toggle {
+    border: none;
+  }
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus {
+    background-color: #ececec;
   }
 
   /*---first----*/
@@ -479,6 +637,9 @@
   .work-item-str:after {
     display: none;
   }
+  .work-num {
+    display: none;
+  }
 
   /*---consultation----*/
   #consult {
@@ -519,19 +680,51 @@
 
   /*---contacts----*/
   .contact-title {
-    font-size: 19px;
+    font-size: 14px;
   }
   .contact-item {
-    font-size: 16px;
+    font-size: 13px;
     padding-bottom: 5px;
   }
+  .about-company--contacts,
+  .feedback__img--cont {
+    display: none;
+  }
+  .contacts__inp {
+    font-size: 13px;
+    width: 70%;
+  }
+  .contacts__submit {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 17px 10px 0 25px;
+  }
   .contacts-form {
-    padding: 30px 10px;
+    padding: 13px 0;
+  }
+  .contacts__row {
+    height: auto;
+    text-align: center;
+  }
+  .sub_wrap {
+    position: relative;
+    width: 29%;
+    margin: 0 auto;
+  }
+  .sub_wrap:before {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 14px;
+    background: url(../img/mail.png);
   }
 
   /*--footer---*/
   .footer {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
@@ -653,12 +846,14 @@
   }
   .services-img {
     max-width: 310px;
-    margin-left: calc(50% - 155px);
   }
 
   /*---work----*/
   .work-num-line:after,
   .work-item-str:after {
+    display: none;
+  }
+  .work-num {
     display: none;
   }
 
@@ -710,6 +905,9 @@
   }
   .contacts-form {
     padding: 30px 10px;
+  }
+  .contacts__row {
+    height: 460px;
   }
 
   /*--footer---*/

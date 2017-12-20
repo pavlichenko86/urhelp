@@ -67,7 +67,7 @@
                 <div class="col-md-12 first__left">
                     <p class="first__left__text wow slideInLeft" data-wow-duration="2s">Комплексна та професійна</p>
                     <p class="first__left__text first__left__text2 wow fadeInLeft" data-wow-duration="2s">юридична допомога</p>
-                    <a class="first__left__btn" href="#">ОТРИМАТИ КОНСУЛЬТАЦІЮ</a>
+                    <a class="first__left__btn" href="#win1">ОТРИМАТИ КОНСУЛЬТАЦІЮ</a>
                 </div>
                 <div class="col-md-12 first__right">
                     <p class="first__right__text wow fadeInRight" data-wow-duration="2s">ВИРІШЕННЯ ПИТАНЬ</p>
@@ -226,14 +226,14 @@
                 <div class="col-md-18 col-md-offset-3">
                     <h2 class="about-company wow slideInRight" data-wow-duration="2s">БАЖАЄТЕ ОТРИМАТИ КОНСУЛЬТАЦІЮ СПЕЦІАЛІСТА?</h2>
                     <p class="consultation-text wow slideInLeft" data-wow-duration="2s">Щоб отримати всю вичерпну інформацію стосовно Вашого питання: заповніть форму нижче. Найближчим часом ми Вам зателефонуємо для уточнення деталей</p>
-                    <form id="consult" class="wow slideInDown" action="#" method="post" name="form-cons" data-wow-duration="2s" data-wow-delay="0.5s">
+                    <form id="consult" class="wow slideInRight" action="#" method="post" name="form-cons" data-wow-duration="2s" data-wow-delay="0.5s">
                         <div class="ccc">
                             <input class="consult-name" type="text" name="c-name" placeholder="Ваше ім`я:">
                         </div>
                         <input class="consult-phone" type="tel" name="c-phone" placeholder="Ваш телефон:">
                         <input class="consult-submit" type="submit" value="НАДІСЛАТИ">
                     </form>
-                    <p class="consult-yes wow slideInDown" data-wow-duration="2s" data-wow-delay="0.5s">* Ви погоджуєтесь на обробку персональних даних</p>
+                    <p class="consult-yes wow slideInLEft" data-wow-duration="2s" data-wow-delay="0.5s">* Ви погоджуєтесь на обробку персональних даних</p>
                 </div>
             </div>
         </div>
@@ -284,7 +284,7 @@
             </div>
             <div class="container-fluid contacts-form">
                 <h2 class="about-company about-company--contacts">КОНТАКТНА ІНФОРМАЦІЯ</h2>
-                <img class="center-block feedback__img" src="img/u-company-white.png" alt="pic">
+                <img class="center-block feedback__img feedback__img--cont" src="img/u-company-white.png" alt="pic">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 col-md-8 wow fadeInLeft" data-wow-duration="2s">
@@ -324,6 +324,19 @@
         <div class="row footer__row">
             <div class="footer-text">Copyright ISV7.COM. Разработка и реализация сайта.</div>
         </div>
+    </div>
+
+    <!-- modal window -->
+    <a href="#x" class="overlay" id="win1"></a>
+    <div class="popup">
+        <form id="mod-form" action="#" method="post" name="form-cons">
+            <h2 class="about-company about-company--mod">БАЖАЄТЕ ОТРИМАТИ КОНСУЛЬТАЦІЮ СПЕЦІАЛІСТА?</h2>
+            <input class="mod-name" type="text" name="mod-name" placeholder="Ваше ім`я:">
+            <input class="mod-phone" type="tel" name="mod-phone" placeholder="Ваш телефон:">
+            <p class="consult-yes consult-yes--mod">* Ви погоджуєтесь на обробку персональних даних</p>
+            <input class="mod-submit" type="submit" value="НАДІСЛАТИ">
+        </form>
+    <a class="closeP"title="Закрыть" href="#close"></a>
     </div>
 </body>
 </html>
